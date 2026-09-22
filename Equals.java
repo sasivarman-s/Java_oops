@@ -4,7 +4,7 @@ class Equals{
         String name2 = "sasivarman";
 
         String val1 = new String("apple");
-        String val2 = new String("apple");
+        String val2 = new String("apple ");
 
         if(name1.equals(name2)){
             System.out.println("values compared and true");
