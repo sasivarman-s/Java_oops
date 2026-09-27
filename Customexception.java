@@ -15,7 +15,7 @@ public class Customexception {
             System.out.println("you are allowed to party!.....");
         }
         catch(Notvalidage e){
-            System.out.println(e);
+            System.out.println("Handled->"+e);
         }
         catch(InputMismatchException e){
             System.out.println("Handled->"+e);
