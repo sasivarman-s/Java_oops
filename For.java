@@ -7,7 +7,7 @@ public class For {
         System.out.print("To end?: ");
         int end = sc.nextInt();
 
-        for(int start=st;start<=end;start=start+1){
+        for(int start=st;start<=end;start++){
             System.out.println(start);
         }
     }
